@@ -1,0 +1,70 @@
+
+== in exampleN03.cc
+ //#include "ExN03PhysicsList.hh"
+#include "DMXPhysicsList.hh"
+G4UserPhysicsList* physics = new DMXPhysicsList
+
+
+
+====[src]=====
+
+DMXMinEkineCuts.cc, DMXPhysicsList.cc, DMXSpecialCuts.cc 
+(====[include]==== header files w/ same name.)
+
+==  in ExN03DetectorConstruction.cc
+ AbsorberThikness 10*mm
+ GapThickness = 2.*m
+ NbOfLayers = 2
+ CalorSizeYZ = 1*m
+ SetGapMaterial("Air")
+
+== in ExN03EventAction.cc
+
+== in ExN03PrimaryGeneratorAction.cc
+ particlaName="neutron"
+ SetParticleEnergy(100.*MeV)
+
+
+==in ExN03SteppingAction.cc
+ = if (volume == detector->GetAbsorber())
+	layerNum
+ 	GlobalTime
+	"data.txt"
+
+==============
+
+
+
+====make_root_tof.cc====
+
+-source for making the rootfile "roo.root" from "data.txt"
+-f1, tr 1, branch 3 : layer, energy, time
+
+===================
+
+
+
+====draw_hist_tof.cc====
+
+- source for making histogram "count vs time" from "roo.root"
+- fitting histogram with gaussian function with subranges
+- I saved the graph as "histogram1.ps"
+- I saved the graph as "histogram2.ps" with gaussian fitting.
+  (narrow ranges)
+
+- calculate and print tof, gapt, v, c, gamma, restE, totE, kinE
+  to get "rel. kinetic energy" (which is our final goal).
+
+==================
+
+
+
+====gauss.cc====
+
+- a direct way to make and fit  gaussian function (from 10comphy).
+- NOT USED in this directory!!
+
+====================
+
+//
+

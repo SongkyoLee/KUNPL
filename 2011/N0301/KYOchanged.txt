@@ -1,0 +1,48 @@
+
+
+====[src]=====
+
+==  in ExN03DetectorConstruction.cc
+ AbsorberThikness 1.5*mm
+ GapThickness = 0.*mm
+ NbOfLayers = 100
+
+== in ExN03EventAction.cc
+ // G4cout Gap
+
+== in ExN03PrimaryGeneratorAction.cc
+ particlaName="proton"
+ SetParticleEnergy(300.MeV)
+
+==in ExN03RunAction.cc
+ // G4cout Gap
+
+==in ExN03SteppingAction.cc
+ = if (volume == detector->GetAbsorber())
+	layerNum
+ 	GlobalTime
+	"data.txt"
+ // if (volume == detector->GetGap())
+
+==============
+
+
+
+====make_root_Bragg.cc====
+
+-source for making the rootfile "Bragg.root" from "data.txt"
+-f1, tr 1, branch 3 : layer, energy, time
+
+===================
+
+
+
+====draw_hist_Bragg.cc====
+
+-source for making histogram "energy vs layer" from "Bragg.root"
+
+==================
+
+
+//
+
