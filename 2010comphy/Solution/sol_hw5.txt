@@ -1,0 +1,62 @@
+#define Xmin -1
+#define Xmax 2
+#define Fmax 0.116666667
+
+using namespace std;
+
+double f(double x){ 
+return 1./36.*(0.2*x*x*x*x + 1);} // f(x) = (1/36)((1/5)x^4 +1)
+
+double pf(double *x, double *p){
+ return p[0]*f(x[0]);} //for plot f(x)..
+
+
+void hw1(void)
+{
+	gROOT->SetStyle("Plain");
+	gROOT->ForceStyle();
+
+	TCanvas *c1 = new TCanvas("c1","HW05",100,10,1200,400);
+	c1->Divide(3,1);
+
+	//Generate random point in function area and fill histogram with it, and Draw them.
+
+	gRandom->SetSeed(1234567890);
+	TH1F* h[3];	
+		char hname[10] = "H1";
+		char htitle[10] = "N=100";
+	TF1* g[3]; 
+		char gname[10] = "g1";
+	double x,y;
+	int i,n;
+
+	for(i=0; i<3; i++)
+	{
+		h[i] = new TH1F(hname,htitle,100,Xmin,Xmax);
+			h[i]->SetFillColor(3);
+			h[i]->SetYTitle("# of events");
+			hname[1]++;
+			htitle[5+i]='0';
+			htitle[6+i]='\0';
+
+		for(n=0; n<pow(10,i+2); )
+		{
+			x = Xmin +gRandom->Rndm()*(Xmax-Xmin);
+			y = gRandom->Rndm()*Fmax;
+			if(y<f(x))
+			{	h[i]->Fill(x);
+				n++;}
+		}		
+
+		c1->cd(i+1);
+		h[i]->Draw();
+
+		g[i] = new TF1(gname,pf,Xmin,Xmax,2);
+			g[i]->SetParameters(0.25*pow(10,i+2),0);
+			g[i]->SetLineColor(2);
+		g[i]->Draw("same");
+			gname[1]++;
+
+	}
+}
+

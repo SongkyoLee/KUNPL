@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>	//to use the RAND_MAX
+#include <time.h>	//to use(time(NULL)
+
+main()
+{
+	int i,j;		 
+	float k;		// variable to save random number temporary.
+	int foo_total=0,foo[10];
+	srand(time(NULL));	// this sentence change the pattern of rand()
+				// so, whenever I run the program, the program
+				// make new random number with CPU clock
+
+	for(i=0;i<10;i++)
+	{
+		foo[i]=0;	//make all components of array(foo) zero.
+	}
+
+	for(i=0;i<1000;i++)
+	{
+		k=(float) rand()/RAND_MAX * 10;	//make random number [0,10]
+		for(j=0;j<10;j++)		
+		{
+			if((j<=k) && (k<j+1))
+			{
+				foo[j]=foo[j]+1;
+				break;		//after count foo[j] stop the for loop with varibale j
+			}
+		}
+
+	}
+
+	for(i=0;i<10;i++)
+	{
+		printf("foo[%d] = %d \n",i, foo[i]);
+		foo_total=foo_total+foo[i];	//to check how many numbers the code made
+	}
+	printf("Total= %d \n", foo_total);		
+}
