@@ -1,0 +1,2374 @@
+##G4.PRIM-FORMAT-2.4
+/BoundingBox       -8575.40369       -9586.41401       -1987.80507        10597.5405        9586.53021        17185.1392
+!SetCamera
+!OpenDevice
+!BeginModeling
+#--------------------
+#/PVName          TPC_PV_IN.0
+/Ndiv  24
+/ColorRGB                 1                 1                 0
+/ForceWireframe  0
+/Origin                 0                 0               300
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs               200               450               600                 0        6.28318531
+#--------------------
+#/PVName               TPC_PV_IF.0
+/Ndiv  24
+/ColorRGB                 1                 0                 0
+/ForceWireframe  0
+/Origin                 0                 0               300
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs               200             200.2               600                 0        6.28318531
+#--------------------
+#/PVName               TPC_PV_OF.0
+/Ndiv  24
+/ColorRGB                 1                 0                 0
+/ForceWireframe  0
+/Origin                 0                 0               300
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs               445               450               600                 0        6.28318531
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_0.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin            323.36                 0               950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_0.0
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin            323.36                 0               950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_0.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin            323.36                 0              -350
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_0.10
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin            323.36                 0              -350
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_1.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin        228.650049        228.650049               950
+/BaseVector                 0                 0                -1      -0.707106781       0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_1.1
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin        228.650049        228.650049               950
+/BaseVector                 0                 0                -1      -0.707106781       0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_1.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin        228.650049        228.650049              -350
+/BaseVector                 0                 0                -1      -0.707106781       0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_1.11
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin        228.650049        228.650049              -350
+/BaseVector                 0                 0                -1      -0.707106781       0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_2.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin    1.97994355e-14            323.36               950
+/BaseVector    6.12303177e-17                 0                -1                -1                 0                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_2.2
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin    1.97994355e-14            323.36               950
+/BaseVector    6.12303177e-17                 0                -1                -1                 0                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_2.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin    1.97994355e-14            323.36              -350
+/BaseVector    6.12303177e-17                 0                -1                -1                 0                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_2.12
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin    1.97994355e-14            323.36              -350
+/BaseVector    6.12303177e-17                 0                -1                -1                 0                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_3.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin       -228.650049        228.650049               950
+/BaseVector                 0                 0                -1      -0.707106781      -0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_3.3
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin       -228.650049        228.650049               950
+/BaseVector                 0                 0                -1      -0.707106781      -0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_3.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin       -228.650049        228.650049              -350
+/BaseVector                 0                 0                -1      -0.707106781      -0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_3.13
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin       -228.650049        228.650049              -350
+/BaseVector                 0                 0                -1      -0.707106781      -0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_4.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin           -323.36    3.95988711e-14               950
+/BaseVector                 0                 0                -1                 0                -1                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_4.4
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin           -323.36    3.95988711e-14               950
+/BaseVector                 0                 0                -1                 0                -1                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_4.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin           -323.36    3.95988711e-14              -350
+/BaseVector                 0                 0                -1                 0                -1                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_4.14
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin           -323.36    3.95988711e-14              -350
+/BaseVector                 0                 0                -1                 0                -1                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_5.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin       -228.650049       -228.650049               950
+/BaseVector                 0                 0                -1       0.707106781      -0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_5.5
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin       -228.650049       -228.650049               950
+/BaseVector                 0                 0                -1       0.707106781      -0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_5.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin       -228.650049       -228.650049              -350
+/BaseVector                 0                 0                -1       0.707106781      -0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_5.15
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin       -228.650049       -228.650049              -350
+/BaseVector                 0                 0                -1       0.707106781      -0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_6.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin   -5.93983066e-14           -323.36               950
+/BaseVector    6.12303177e-17                 0                -1                 1                 0                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_6.6
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin   -5.93983066e-14           -323.36               950
+/BaseVector    6.12303177e-17                 0                -1                 1                 0                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_6.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin   -5.93983066e-14           -323.36              -350
+/BaseVector    6.12303177e-17                 0                -1                 1                 0                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_6.16
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin   -5.93983066e-14           -323.36              -350
+/BaseVector    6.12303177e-17                 0                -1                 1                 0                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_UP_PV_7.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin        228.650049       -228.650049               950
+/BaseVector                 0                 0                -1       0.707106781       0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_UP_PV_7.7
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin        228.650049       -228.650049               950
+/BaseVector                 0                 0                -1       0.707106781       0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          PAD_FRAME_DOWN_PV_7.0
+/ColorRGB               0.6               0.6               0.6
+/ForceWireframe  0
+/Origin        228.650049       -228.650049              -350
+/BaseVector                 0                 0                -1       0.707106781       0.707106781                 0
+/Trd                50                50             76.54            191.34            138.58
+#--------------------
+#/PVName               PAD_INSIDE_DOWN_PV_7.17
+/ColorRGB               0.5                 0                 1
+/ForceWireframe  0
+/Origin        228.650049       -228.650049              -350
+/BaseVector                 0                 0                -1       0.707106781       0.707106781                 0
+/Trd              49.8              49.8              76.4            191.04            138.38
+#--------------------
+#/PVName          COL_PV.0
+/ColorRGB               0.5               0.5               0.5
+/ForceWireframe  0
+/Origin                 0                 0              1400
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyhedron
+/Vertex             -1400             -1400              -100
+/Vertex              1400             -1400              -100
+/Vertex              1400              1400              -100
+/Vertex             -1400              1400              -100
+/Vertex             -1400             -1400               100
+/Vertex              1400             -1400               100
+/Vertex              1400              1400               100
+/Vertex             -1400              1400               100
+/Vertex         -399.9752         -249.9816          -99.9864
+/Vertex          400.0248         -249.9816          -99.9864
+/Vertex          400.0248          250.0184          -99.9864
+/Vertex         -399.9752          250.0184          -99.9864
+/Vertex         -399.9752          250.0184               100
+/Vertex         -399.9752         -249.9816               100
+/Vertex          400.0248          250.0184               100
+/Vertex          400.0248         -249.9816               100
+/Facet  1  4  3  2
+/Facet  5  8  4  1
+/Facet  8  7  3  4
+/Facet  7  6  2  3
+/Facet  6  5  1  2
+/Facet  9  10  11  12
+/Facet  5  6  14
+/Facet  16  14  6
+/Facet  8  5  14
+/Facet  15  16  6
+/Facet  8  14  13
+/Facet  15  6  7
+/Facet  7  8  13
+/Facet  13  15  7
+/Facet  14  9  12
+/Facet  12  13  14
+/Facet  13  12  11
+/Facet  11  15  13
+/Facet  15  11  10
+/Facet  10  16  15
+/Facet  16  10  9
+/Facet  9  14  16
+/EndPolyhedron
+#--------------------
+#/PVName          DCBD_FRAME_PV.0
+/ColorRGB               0.4               0.7                 1
+/ForceWireframe  0
+/Origin                 0                 0              1450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box               400               250                50
+#--------------------
+#/PVName               DCBD_IN_PV.0
+/ColorRGB               0.4               0.5                 1
+/ForceWireframe  0
+/Origin                 0                 0              1450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box             399.9             249.9              49.9
+#--------------------
+#/PVName          DCU1_FRAME_PV.0
+/ColorRGB               0.4               0.7                 1
+/ForceWireframe  0
+/Origin              1250                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box               375               300                50
+#--------------------
+#/PVName               DCU1_IN_PV.0
+/ColorRGB               0.4               0.5                 1
+/ForceWireframe  0
+/Origin              1250                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box             374.9             299.9              49.9
+#--------------------
+#/PVName          HB1_FRAME_PV_DPA1.0
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin              2625                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd               440              1490               285             598.1              1275
+#--------------------
+#/PVName               HB1_INSIDE_PV_DPA1.0
+/ColorRGB                 0               0.7                 0
+/ForceWireframe  0
+/Origin              2625                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Trd             439.8            1489.8             284.8             597.9            1274.8
+#--------------------
+#/PVName               HB1_WINDOW_UP_PV_DPA1.0
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin            1350.1                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box             439.8             284.8               0.1
+#--------------------
+#/PVName               HB1_WINDOW_DOWN_PV_DPA1.0
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin            3899.9                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box            1489.8             597.9               0.1
+#--------------------
+#/PVName          DCD1_FRAME_PV.0
+/ColorRGB               0.4               0.7                 1
+/ForceWireframe  0
+/Origin              4050                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box              1550               650                50
+#--------------------
+#/PVName               DCD1_IN_PV.0
+/ColorRGB               0.4               0.5                 1
+/ForceWireframe  0
+/Origin              4050                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box            1549.9             649.9              49.9
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.0
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1450
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.1
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1550
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.2
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1650
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.3
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1750
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.4
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1850
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.5
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              1950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.6
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2050
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.7
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2150
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.8
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2250
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.9
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2350
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.10
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2450
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.11
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2550
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.12
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2650
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.13
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2750
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.14
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2850
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.15
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              2950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.16
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3050
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.17
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3150
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.18
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3250
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.19
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3350
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.20
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3450
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.21
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3550
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.22
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3650
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.23
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3750
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.24
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3850
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.25
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              3950
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.26
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              4050
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.27
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              4150
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.28
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              4250
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.29
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              4350
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA1_PV.30
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin              4250                 0              4450
+/BaseVector                 0                 0                -1                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          DCU2_FRAME_PV.0
+/ColorRGB               0.4               0.7                 1
+/ForceWireframe  0
+/Origin        530.330086                 0        3480.33009
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box               400               300                50
+#--------------------
+#/PVName               DCU2_IN_PV.0
+/ColorRGB               0.4               0.5                 1
+/ForceWireframe  0
+/Origin        530.330086                 0        3480.33009
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box             399.9             299.9              49.9
+#--------------------
+#/PVName          HB_FRAME_PV_DPA2.0
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin        1502.60191                 0        4452.60191
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Trd               440              1495               285             598.1              1275
+#--------------------
+#/PVName               HB_INSIDE_PV_DPA2.0
+/ColorRGB                 0               0.7                 0
+/ForceWireframe  0
+/Origin        1502.60191                 0        4452.60191
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Trd             439.8            1494.8             284.8             597.9            1274.8
+#--------------------
+#/PVName               HB_WINDOW_UP_PV_DPA2.0
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin        601.111475                 0        3551.11147
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box             439.8             284.8               0.1
+#--------------------
+#/PVName               HB_WINDOW_DOWN_PV_DPA2.0
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin        2404.09235                 0        5354.09235
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box            1494.8             597.9               0.1
+#--------------------
+#/PVName          DCD2_FRAME_PV.0
+/ColorRGB               0.4               0.7                 1
+/ForceWireframe  0
+/Origin        2510.22907                 0        5460.22907
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box              1550               650                50
+#--------------------
+#/PVName               DCD2_IN_PV.0
+/ColorRGB               0.4               0.5                 1
+/ForceWireframe  0
+/Origin        2510.22907                 0        5460.22907
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box            1549.9             649.9              49.9
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.0
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin         3712.3106                 0        4540.99026
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.1
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3641.59992                 0        4611.70094
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.2
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3570.88924                 0        4682.41161
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.3
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3500.17857                 0        4753.12229
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.4
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3429.46789                 0        4823.83297
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.5
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3358.75721                 0        4894.54365
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.6
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3288.04653                 0        4965.25433
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.7
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3217.33585                 0          5035.965
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.8
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3146.62518                 0        5106.67568
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.9
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin         3075.9145                 0        5177.38636
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.10
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        3005.20382                 0        5248.09704
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.11
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2934.49314                 0        5318.80772
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.12
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2863.78246                 0         5389.5184
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.13
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2793.07179                 0        5460.22907
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.14
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2722.36111                 0        5530.93975
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.15
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2651.65043                 0        5601.65043
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.16
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2580.93975                 0        5672.36111
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.17
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2510.22907                 0        5743.07179
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.18
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin         2439.5184                 0        5813.78246
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.19
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2368.80772                 0        5884.49314
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.20
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2298.09704                 0        5955.20382
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.21
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2227.38636                 0         6025.9145
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.22
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2156.67568                 0        6096.62518
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.23
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin          2085.965                 0        6167.33585
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.24
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        2015.25433                 0        6238.04653
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.25
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1944.54365                 0        6308.75721
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.26
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1873.83297                 0        6379.46789
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.27
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1803.12229                 0        6450.17857
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.28
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1732.41161                 0        6520.88924
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.29
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1661.70094                 0        6591.59992
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          TOF_WALL_DPA2_PV.30
+/ColorRGB                 1               0.5                 0
+/ForceWireframe  0
+/Origin        1590.99026                 0         6662.3106
+/BaseVector       0.707106781                 0      -0.707106781                 0                 1                 0
+/Box                50               650                50
+#--------------------
+#/PVName          VC1_PV.1099
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                 0             14495
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000              1000                 5
+#--------------------
+#/PVName          HB1_LAND_PV.0
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin                 0                 0             14750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000              1000               250
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1000
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -950             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1100
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -950                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1001
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -850             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1101
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -850                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1002
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -750             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1102
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -750                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1003
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -650             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1103
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -650                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1004
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -550             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1104
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -550                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1005
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -450             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1105
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -450                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1006
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -350             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1106
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -350                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1007
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -250             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1107
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -250                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1008
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -150             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1108
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -150                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1009
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               -50             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1109
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               -50                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1010
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                50             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1110
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                50                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1011
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               150             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1111
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               150                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1012
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               250             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1112
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               250                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1013
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               350             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1113
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               350                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1014
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               450             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1114
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               450                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1015
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               550             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1115
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               550                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1016
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               650             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1116
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               650                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1017
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               750             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1117
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               750                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1018
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               850             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1118
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               850                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1019
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               950             15050
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1119
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               950                 0             15150
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1200
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -950             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1300
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -950                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1201
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -850             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1301
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -850                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1202
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -750             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1302
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -750                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1203
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -650             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1303
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -650                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1204
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -550             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1304
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -550                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1205
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -450             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1305
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -450                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1206
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -350             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1306
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -350                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1207
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -250             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1307
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -250                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1208
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -150             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1308
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -150                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1209
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               -50             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1309
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               -50                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1210
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                50             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1310
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                50                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1211
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               150             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1311
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               150                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1212
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               250             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1312
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               250                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1213
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               350             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1313
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               350                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1214
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               450             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1314
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               450                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1215
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               550             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1315
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               550                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1216
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               650             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1316
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               650                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1217
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               750             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1317
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               750                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1218
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               850             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1318
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               850                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1219
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               950             15250
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1319
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               950                 0             15350
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1400
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -950             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1500
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -950                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1401
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -850             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1501
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -850                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1402
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -750             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1502
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -750                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1403
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -650             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1503
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -650                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1404
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -550             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1504
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -550                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1405
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -450             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1505
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -450                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1406
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -350             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1506
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -350                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1407
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -250             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1507
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -250                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1408
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -150             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1508
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -150                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1409
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               -50             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1509
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               -50                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1410
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                50             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1510
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                50                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1411
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               150             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1511
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               150                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1412
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               250             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1512
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               250                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1413
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               350             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1513
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               350                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1414
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               450             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1514
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               450                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1415
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               550             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1515
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               550                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1416
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               650             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1516
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               650                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1417
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               750             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1517
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               750                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1418
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               850             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1518
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               850                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1419
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               950             15450
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1519
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               950                 0             15550
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1600
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -950             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1700
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -950                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1601
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -850             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1701
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -850                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1602
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -750             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1702
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -750                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1603
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -650             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1703
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -650                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1604
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -550             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1704
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -550                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1605
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -450             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1705
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -450                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1606
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -350             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1706
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -350                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1607
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -250             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1707
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -250                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1608
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -150             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1708
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -150                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1609
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               -50             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1709
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               -50                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1610
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                50             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1710
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                50                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1611
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               150             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1711
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               150                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1612
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               250             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1712
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               250                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1613
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               350             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1713
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               350                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1614
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               450             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1714
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               450                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1615
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               550             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1715
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               550                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1616
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               650             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1716
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               650                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1617
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               750             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1717
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               750                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1618
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               850             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1718
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               850                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1619
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               950             15650
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1719
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               950                 0             15750
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1800
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -950             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1900
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -950                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1801
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -850             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1901
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -850                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1802
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -750             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1902
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -750                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1803
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -650             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1903
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -650                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1804
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -550             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1904
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -550                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1805
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -450             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1905
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -450                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1806
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -350             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1906
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -350                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1807
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -250             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1907
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -250                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1808
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0              -150             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1908
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin              -150                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1809
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               -50             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1909
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               -50                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1810
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                50             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1910
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                50                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1811
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               150             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1911
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               150                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1812
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               250             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1912
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               250                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1813
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               350             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1913
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               350                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1814
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               450             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1914
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               450                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1815
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               550             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1915
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               550                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1816
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               650             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1916
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               650                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1817
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               750             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1917
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               750                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1818
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               850             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1918
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               850                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SA1_HORIZONTAL_PV.1819
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0               950             15850
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box              1000                50                50
+#--------------------
+#/PVName          SA1_VERTICAL_PV.1919
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin               950                 0             15950
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box                50              1000                50
+#--------------------
+#/PVName          SOL_PV.0
+/Ndiv  24
+/ColorRGB                 1                 0                 1
+/ForceWireframe  0
+/Origin                 0                 0               300
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs               900              1400              1000                 0        6.28318531
+#--------------------
+#/PVName          DP_VACUUM_PV.0
+/ColorRGB                 1                 1                 0
+/ForceWireframe  0
+/Origin        247.487373                 0        2702.51263
+/BaseVector       0.707106781                 0       0.707106781                 0                 1                 0
+/Polyhedron
+/Vertex              -575              -400              -900
+/Vertex               575              -400              -900
+/Vertex               575               400              -900
+/Vertex              -575               400              -900
+/Vertex              -575              -400               900
+/Vertex               575              -400               900
+/Vertex               575               400               900
+/Vertex              -575               400               900
+/Vertex       -1279.81483       -399.964058       -364.151283
+/Vertex       -714.129405       -399.964058       -929.836708
+/Vertex       -714.129405        400.035942       -929.836708
+/Vertex       -1279.81483        400.035942       -364.151283
+/Vertex        282.891156        400.035942        67.1838535
+/Vertex       -282.794269        400.035942        632.869278
+/Vertex              -575               400        340.663547
+/Vertex              -575       -399.964058        340.663547
+/Vertex              -575               400       -790.707303
+/Vertex              -575       -399.964058       -790.707303
+/Vertex       -282.794269               400        632.869278
+/Vertex        282.891156               400        67.1838535
+/Facet  1  4  3  2
+/Facet  7  6  2  3
+/Facet  6  5  1  2
+/Facet  5  6  7  8
+/Facet  9  12  11  10
+/Facet  14  13  11  12
+/Facet  18  17  4
+/Facet  5  8  15
+/Facet  18  4  1
+/Facet  5  15  16
+/Facet  16  18  1
+/Facet  1  5  16
+/Facet  19  15  8
+/Facet  3  4  17
+/Facet  19  8  7
+/Facet  3  17  20
+/Facet  20  19  7
+/Facet  7  3  20
+/Facet  15  19  14
+/Facet  12  9  16
+/Facet  15  14  12
+/Facet  12  16  15
+/Facet  17  18  10
+/Facet  11  13  20
+/Facet  17  10  11
+/Facet  11  20  17
+/Facet  18  16  9
+/Facet  9  10  18
+/Facet  19  20  13
+/Facet  13  14  19
+/EndPolyhedron
+#--------------------
+#/PVName               MField_phys.0
+/ColorRGB                 1                 0                 0
+/ForceWireframe  0
+/Origin        247.487373                 0        2702.51263
+/BaseVector       0.707106781                 0       0.707106781                 0                 1                 0
+/Box               500               300               850
+/ColorRGB                 1                 0                 0
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex               500                 0                 0
+/EndPolyline
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex                 0               500                 0
+/EndPolyline
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex                 0                 0               500
+/EndPolyline
+#--------------------
+!EndModeling
+!DrawAll
+!CloseDevice
