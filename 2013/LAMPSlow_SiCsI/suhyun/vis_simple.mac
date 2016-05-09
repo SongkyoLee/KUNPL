@@ -1,0 +1,8 @@
+/vis/open OGLIX 900x900
+/vis/drawVolume
+#/vis/viewer/set/upVector 1 0 0
+/vis/viewer/set/viewpointThetaPhi 90 180
+/vis/scene/add/axes 0 0 0 5 cm
+/vis/scene/add/trajectories
+#/vis/scene/endOfEventAction accumulate 100
+#/run/beamOn 1
