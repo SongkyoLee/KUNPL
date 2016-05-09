@@ -1,0 +1,5 @@
+/lamps/particle proton
+/lamps/useRndm 1
+/lamps/rndmKE 1000 
+/lamps/rndm_p_direction 14 14 360
+#/run/beamOn 10000

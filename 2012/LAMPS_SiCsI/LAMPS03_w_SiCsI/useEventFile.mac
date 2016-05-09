@@ -1,0 +1,6 @@
+/lamps/useEventFile 1
+/lamps/eventEnergy 250 
+/lamps/eventModel 1
+#/lamps/eventNum 50
+#/lamps/run 
+#/lamps/runAll 
