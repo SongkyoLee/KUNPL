@@ -1,0 +1,28 @@
+////////////////////////////////////////////////////////////////////////////////////////
+// This LAMPS simulation code are written and modified by the following people.       //
+//                                                                                    //
+// * Genie Jhang (geniejhang@majimak.com)                                             //
+// * Eunah Joo (silverchild.joo@gmail.com)                                            //
+// * Hyunha Shim (hhshim@korea.ac.kr)                                                 //
+// * Songkyo Lee (renate0@korea.ac.kr)                                                //
+// * Suhyun Lee (sam4328@gmail.com)
+//                                                                                    //
+// * Advisor: Byungsik Hong (bhong@korea.ac.kr)                                       //
+//                                                                                    //
+// This LAMPS simulation code belongs to Korea University Nuclear Physics Laboratory. //
+// It is not permitted to use or share this code without permission by KUNPL.         //
+////////////////////////////////////////////////////////////////////////////////////////
+
+1. Instruction
+For the neutron detector research, type:
+make -f GNUmakefile_neutron
+
+For the researches not using the neutron detector, type:
+make
+
+2. Remark
+When compliling for the neutron detector research, it uses DMXPhysicsList.
+The other case uses A01PhysicsList.
+
+3. This directory is modified with Source code
+(LAMPSDetectorConstruction.cc, SiCsI is removed)

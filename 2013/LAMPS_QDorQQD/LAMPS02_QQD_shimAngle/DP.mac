@@ -1,0 +1,6 @@
+#/vis/open OGLIX 1000x1000
+/vis/open DAWNFILE
+/vis/drawVolume DP_PV
+/vis/scene/add/volume ENT_PV
+/vis/scene/add/volume EX_PV
+/vis/viewer/flush
